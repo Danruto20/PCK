@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+        <header>
+                <div class="cont">
+                    <div class="brand">
+                        <div class="logo"><img src="static/img/logo.svg" alt=""></div>
+                        <div class="name"><span>PCK tracking system</span></div>
+                    </div>
+                    <nav>
+                       <div class="nav">
+                            <ol>
+                                <li class="register"><a href="registration.html">Register</a></li>
+                            </ol>
+                        </div>     
+                    </nav>
+                </div>
+        </header>
+        <section class="form-content" >
+                <form action="">
+                    <div class=cont>
+                        <h1>Login</h1>          
+                        
+            
+                        <label for="username">Username</label><br>
+                        <input id="login-username" type="text" placeholder="Your username" name="username" required><br>
+            
+                        <label for="password">Password</label><br>
+                        <input id="login-pswd" type="password" placeholder="Enter password" name="password" required><br>                    
+                        
+                        <button id="login-btn" type="submit" class="btn">Login</button>
+                    </div> 
+                    <div class="signin-quiz">
+                            <p>Don't have an account? <a href="registration.html">Register.</a></p> 
+                    
+                </form>    
+              </section>
+              <div class="info-msg">
+                    <span class="info"></span>
+            </div>        
+</body>
+<script src="static/js/auth.js"></script>
+</html>
