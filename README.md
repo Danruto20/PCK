@@ -1,2 +1,4 @@
-# PCK
-Courier tracking system for tracking location of parcels within City Hall, Nairobi.
+# SendIT
+Send parcels web app 
+## Hosted: 
+https://elmonstro.github.io/SendIT/

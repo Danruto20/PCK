@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="static/css/style.css"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div class="dashboard">
+        <div class="side-panel">
+            <div class="brand">
+                <div class="logo"><img src="static/img/logo.svg" alt=""></div>
+                <div class="name"><span>PCK tracking system</span></div>
+            </div>
+            <div id="new-order">
+                <span><img src="static/img/add.svg" alt=""></span><span class="txt">New Order</span>
+            </div>
+            <div class="option" id="all">
+                <span class="icon"><img src="static/img/choices.svg" alt=""></span>
+                <span class="opt-name">All orders </span>
+                <span id="all-stat" class="no"></span>
+            </div>
+            <div class="option" id="new">
+                <span class="icon"><img src="static/img/new.svg" alt=""></span>
+                <span class="opt-name">New orders</span>
+                <span id="new-stat" class="no"></span>
+            </div>
+            <div class="option" id="transit">
+                <span class="icon"><img src="static/img/delivery-truck.svg" alt=""></span>
+                <span class="opt-name">In-transit</span>
+                <span id="intransit-stat" class="no"></span>
+            </div>
+            <div class="option" id="deliver">
+                <span class="icon"><img src="static/img/shipped.svg" alt=""></span>
+                <span class="opt-name">Delivered</span>
+                <span id="delivered-stat" class="no"></span>
+            </div>
+            <div class="option" id="cancel">
+                <span class="icon"><img src="static/img/canceled.svg" alt=""></span>
+                <span class="opt-name">Canceled</span>
+                <span id="canceled-stat" class="no"></span>
+            </div>
+            <div class="option" id="reject">
+                <span class="icon"><img src="static/img/reject.svg" alt=""></span>
+                <span class="opt-name">Rejected</span>
+                <span id="reject-stat" class="no"></span>            
+            </div>
+            <div class="option" id="notifications-option">
+                <span class="icon"><img src="static/img/notification.svg" alt=""></span>
+                <span class="opt-name">Notifications </span>
+                <span id="notification-stat" class="no"></span>
+            </div>
+            <div class="option" id="logout">
+                <span class="icon"><img src="static/img/logout.svg" alt=""></span>
+                <span class="opt-name">Logout</span>
+            </div>
+
+            
+
+        </div>
+        <div class="dash-cont">
+            <header>
+                <div class="user"><span class="acc-name">Josh</span><span class="init">J</span></div>
+            </header>
+            <div class="cont">
+                <div id="title">
+                    <div class="heading"><span>All your parcel Orders</span></div>
+                    <div class="order-statistics">
+                        <div class="filter" id="delivered-orders"><span class="delivered stat" id="dlvd">Delivered </span><span> </span></div>
+                        <div class="filter" id="undelivered-orders"><span class="in-transit stat" id="trst">In Transit </span><span></span></div>
+                        <div class="filter" id="cancelled-orders"><span class="canceled stat" id="cncld">Canceled </span><span></span></div>
+                    </div>
+                    <div class="titles">
+                        <span class="order-no">#</span>
+                        <span>Pickup</span>
+                        <span>Dest.</span>
+                        <span>Weight</span>
+                        <span class="price-span">Price</span>
+                        <span>Status</span>
+                    </div>
+                </div>
+                <div id="all-orders">
+                    <!-- To be filled dynamically -->
+                                           
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="info-msg">
+            <span class="info"></span>
+    </div>   
+</body>
+<script src="static/js/main.js"></script>
+
+</html>
